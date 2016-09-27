@@ -116,7 +116,8 @@ namespace TestMultiTouch
             record_distance = new StreamWriter(@"Record_Distance.csv",true, enc);
             record_point = new StreamWriter(@"Record_Point.csv",true, enc);
 
-            record_point.WriteLine("testdata");
+            record_distance.WriteLine("testdata");
+            record_distance.WriteLine("koke,koke");
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
