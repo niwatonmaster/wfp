@@ -14,3 +14,13 @@ C:\Users\IPLAB\Downloads\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\
 C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\bin\Release\TestMultiTouch.exe.config
 C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.exe
 C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.pdb
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\bin\Release\TestMultiTouch.exe
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\bin\Release\TestMultiTouch.pdb
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.csprojResolveAssemblyReference.cache
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\MainWindow.baml
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\MainWindow.g.cs
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\App.g.cs
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch_MarkupCompile.cache
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.g.resources
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.Properties.Resources.resources
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.csproj.GenerateResource.Cache

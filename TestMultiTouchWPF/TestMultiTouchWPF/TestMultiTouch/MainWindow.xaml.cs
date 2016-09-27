@@ -114,7 +114,6 @@ namespace TestMultiTouch
             //ファイル書き込み準備
             System.Text.Encoding enc = System.Text.Encoding.GetEncoding("Shift_JIS");
             record_distance = new StreamWriter(@"Record_Distance.csv",true, enc);
-            System.Text.Encoding enc = System.Text.Encoding.GetEncoding("Shift_JIS");
             record_point = new StreamWriter(@"Record_Point.csv",true, enc);
         }
 
@@ -169,7 +168,7 @@ namespace TestMultiTouch
             Console.WriteLine("distance2:" + distance2);
 
             //ファイル書き込み
-            fp.WriteLine(distance1 + "," + distance2);
+            record_distance.WriteLine(distance1 + "," + distance2);
         }
 
         /// <summary>
@@ -344,7 +343,7 @@ namespace TestMultiTouch
             x = e.GetPosition(canvas).X;
             y = e.GetPosition(canvas).Y;
 
-            Touch_marker();
+            Touch_marker(@"Record_Distance.csv");
         }
 
 
