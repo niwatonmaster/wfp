@@ -11,3 +11,6 @@ C:\Users\IPLAB\Downloads\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\
 C:\Users\IPLAB\Downloads\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.csproj.GenerateResource.Cache
 C:\Users\IPLAB\Downloads\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.exe
 C:\Users\IPLAB\Downloads\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.pdb
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\bin\Release\TestMultiTouch.exe.config
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.exe
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.pdb
