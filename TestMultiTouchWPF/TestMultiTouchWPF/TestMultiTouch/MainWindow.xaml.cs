@@ -92,7 +92,7 @@ namespace TestMultiTouch
                 Canvas.SetLeft(label, pos.X - label.ActualWidth / 2);
                 Canvas.SetTop(label, pos.Y - ellipse.ActualHeight / 2 - label.ActualHeight);
             }
-        } 
+        }
 
         public MainWindow()
         {
@@ -118,7 +118,7 @@ namespace TestMultiTouch
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            
+
         }
 
 
@@ -343,7 +343,7 @@ namespace TestMultiTouch
 
             Touch_marker();
         }
-       
+
 
         private Boolean Range_in(Double num, Double max, Double min) {
             if (num > min && num < max)
@@ -357,6 +357,33 @@ namespace TestMultiTouch
 
         //マーカの認識処理
         private void Touch_marker(){
+            string file = @"TestData.csv";
+            Console.WriteLine(file + "================================");
+
+            TextFieldParser parser = new TextFieldParser(file, System.Text.Encoding.GetEncoding("Shift_JIS"));
+            parser.TextFieldType = FieldType.Delimited;
+            parser.SetDelimiters(","); // 区切り文字はコンマ
+            parser.CommentTokens = new string[1] { "#" };
+            int line = 0, col = 0;
+            while (!parser.EndOfData)
+            {
+                ++line;
+                col = 0;
+                string[] row = parser.ReadFields(); // 1行読み込み
+                Console.WriteLine("{0}", line);
+                // 配列rowの要素は読み込んだ行の各フィールドの値
+                foreach (string field in row)
+                {
+                    ++col;
+                    Console.WriteLine("{0}:{1}", col, field);
+                }
+                Console.WriteLine("----------------------------");
+            }
+            parser.Close();
+        }
+
+        //csvのパーサー
+        private void CSV_Reader(){
             string file = @"TestData.csv";
             Console.WriteLine(file + "================================");
 
