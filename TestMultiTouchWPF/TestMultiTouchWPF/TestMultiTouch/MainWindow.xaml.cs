@@ -41,7 +41,7 @@ namespace TestMultiTouch
         private double distance2 = 0;
         private double x = 0;
         private double y = 0;
-        private StreamWriter fp;
+        private StreamWriter record_distance, record_point;
 
 
         /// <summary>
@@ -113,7 +113,9 @@ namespace TestMultiTouch
 
             //ファイル書き込み準備
             System.Text.Encoding enc = System.Text.Encoding.GetEncoding("Shift_JIS");
-            fp = new StreamWriter(@"TestData.csv",true, enc);
+            record_distance = new StreamWriter(@"Record_Distance.csv",true, enc);
+            System.Text.Encoding enc = System.Text.Encoding.GetEncoding("Shift_JIS");
+            record_point = new StreamWriter(@"Record_Point.csv",true, enc);
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -294,7 +296,8 @@ namespace TestMultiTouch
             Console.WriteLine("distance2:" + distance2);
 
             //ファイル書き込み
-            fp.WriteLine(distance1 + "," + distance2);
+            record_distance.WriteLine(distance1 + "," + distance2);
+            record_point.WriteLine(p.X + "," + p.Y);
         }
 
         /// <summary>
@@ -356,35 +359,35 @@ namespace TestMultiTouch
         }
 
         //マーカの認識処理
-        private void Touch_marker(){
-            string file = @"TestData.csv";
-            Console.WriteLine(file + "================================");
+        private void Touch_marker(string filename){
+          string file = filename;
+          Console.WriteLine(file + "================================");
 
-            TextFieldParser parser = new TextFieldParser(file, System.Text.Encoding.GetEncoding("Shift_JIS"));
-            parser.TextFieldType = FieldType.Delimited;
-            parser.SetDelimiters(","); // 区切り文字はコンマ
-            parser.CommentTokens = new string[1] { "#" };
-            int line = 0, col = 0;
-            while (!parser.EndOfData)
-            {
-                ++line;
-                col = 0;
-                string[] row = parser.ReadFields(); // 1行読み込み
-                Console.WriteLine("{0}", line);
-                // 配列rowの要素は読み込んだ行の各フィールドの値
-                foreach (string field in row)
-                {
-                    ++col;
-                    Console.WriteLine("{0}:{1}", col, field);
-                }
-                Console.WriteLine("----------------------------");
-            }
-            parser.Close();
+          TextFieldParser parser = new TextFieldParser(file, System.Text.Encoding.GetEncoding("Shift_JIS"));
+          parser.TextFieldType = FieldType.Delimited;
+          parser.SetDelimiters(","); // 区切り文字はコンマ
+          parser.CommentTokens = new string[1] { "#" };
+          int line = 0, col = 0;
+          while (!parser.EndOfData)
+          {
+              ++line;
+              col = 0;
+              string[] row = parser.ReadFields(); // 1行読み込み
+              Console.WriteLine("{0}", line);
+              // 配列rowの要素は読み込んだ行の各フィールドの値
+              foreach (string field in row)
+              {
+                  ++col;
+                  Console.WriteLine("{0}:{1}", col, field);
+              }
+              Console.WriteLine("----------------------------");
+          }
+          parser.Close();
         }
 
         //csvのパーサー
-        private void CSV_Reader(){
-            string file = @"TestData.csv";
+        private void CSV_Reader(string filename){
+            string file = filename;
             Console.WriteLine(file + "================================");
 
             TextFieldParser parser = new TextFieldParser(file, System.Text.Encoding.GetEncoding("Shift_JIS"));
