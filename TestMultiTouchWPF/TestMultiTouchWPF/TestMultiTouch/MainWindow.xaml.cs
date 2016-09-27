@@ -115,6 +115,8 @@ namespace TestMultiTouch
             System.Text.Encoding enc = System.Text.Encoding.GetEncoding("Shift_JIS");
             record_distance = new StreamWriter(@"Record_Distance.csv",true, enc);
             record_point = new StreamWriter(@"Record_Point.csv",true, enc);
+
+            record_point.WriteLine("testdata");
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
