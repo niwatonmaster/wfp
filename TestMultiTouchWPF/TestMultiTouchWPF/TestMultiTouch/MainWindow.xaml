@@ -6,4 +6,5 @@
         <Canvas x:Name="canvas" TouchDown="canvas_TouchDown" TouchMove="canvas_TouchMove" TouchUp="canvas_TouchUp" Background="White" MouseDown="canvas_MouseDown" MouseMove="canvas_MouseMove" MouseUp="canvas_MouseUp" StylusDown="canvas_StylusDown" StylusMove="canvas_StylusMove" StylusUp="canvas_StylusUp" />
     </Grid>
     
+    
 </Window>

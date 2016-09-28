@@ -113,9 +113,10 @@ namespace TestMultiTouch
 
             //ファイル書き込み準備
             System.Text.Encoding enc = System.Text.Encoding.GetEncoding("Shift_JIS");
-            record_distance = new StreamWriter(@"Record_Distance"+ DateTime.UtcNow +".csv",true, enc);
+            record_distance = new StreamWriter(@"Record_Distance1.csv",true, enc);
             record_point = new StreamWriter(@"Record_Point.csv",true, enc);
-
+            StreamWriter fp = new StreamWriter(@"Test.csv", true, enc);
+            fp.WriteLine("1,2,3");
             record_distance.WriteLine("testdata");
             record_distance.WriteLine("koke,koke");
         }
@@ -347,6 +348,11 @@ namespace TestMultiTouch
             y = e.GetPosition(canvas).Y;
 
             Touch_marker(@"Record_Distance.csv");
+
+            var win = new Window();
+            win.Width = Width / 3;
+            win.Height = Height / 2;
+            win.Show();
         }
 
 
