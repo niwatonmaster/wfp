@@ -24,3 +24,6 @@ C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Releas
 C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.g.resources
 C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.Properties.Resources.resources
 C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch.csproj.GenerateResource.Cache
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\TestMultiTouch_MarkupCompile.lref
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\Window2.g.cs
+C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\obj\Release\Window2.baml

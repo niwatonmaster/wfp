@@ -349,16 +349,16 @@ namespace TestMultiTouch
 
             Touch_marker(@"Record_Distance.csv");
 
-            var win = new Window();
+            var win = new Window2();
             win.Width = Width / 3;
             win.Height = Height / 2;
-            win.Show();
+            //win.Show();
         }
 
 
         private Boolean Range_in(Double num, Double max, Double min) {
             if (num > min && num < max)
-            {
+            {                  
                 return true;
             }
             else {
