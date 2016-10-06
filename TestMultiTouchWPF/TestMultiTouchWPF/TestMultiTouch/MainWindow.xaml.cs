@@ -119,6 +119,8 @@ namespace TestMultiTouch
             fp.WriteLine("1,2,3");
             record_distance.WriteLine("testdata");
             record_distance.WriteLine("koke,koke");
+
+           
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -161,18 +163,22 @@ namespace TestMultiTouch
             distance1 = distance;
 
             //マーカ判定
-            if (Range_in(distance1, 140, 120) && Range_in(distance2, 100, 80)) {
+            if (Range_in(distance1, 35, 25) && Range_in(distance2, 25, 15)) {
                 Console.WriteLine("Mark1");
+                Canvas.SetTop(canvas3, p.Position.X);
+                Canvas.SetLeft(canvas3, p.Position.Y);
             }
-            else if( Range_in(distance1, 100, 80) && Range_in(distance2, 100, 80)){
+            else if( Range_in(distance1, 25, 15) && Range_in(distance2, 35, 25)){
                 Console.WriteLine("Mark2");
+                Canvas.SetTop(canvas3, p.Position.X);
+                Canvas.SetLeft(canvas3, p.Position.Y);
             }
 
             Console.WriteLine("distance1:" + distance1);
             Console.WriteLine("distance2:" + distance2);
 
             //ファイル書き込み
-            record_distance.WriteLine(distance1 + "," + distance2);
+            //record_distance.WriteLine(distance1 + "," + distance2);
         }
 
         /// <summary>
@@ -202,8 +208,8 @@ namespace TestMultiTouch
             // タッチキャプチャをリリース
             canvas.ReleaseTouchCapture(e.TouchDevice);
             // 図形を削除
-            canvas.Children.Remove(touchPoints[e.TouchDevice.Id].label);
-            canvas.Children.Remove(touchPoints[e.TouchDevice.Id].ellipse);
+            //canvas.Children.Remove(touchPoints[e.TouchDevice.Id].label);
+            //canvas.Children.Remove(touchPoints[e.TouchDevice.Id].ellipse);
             touchPoints.Remove(e.TouchDevice.Id);
 
             End = DateTime.UtcNow;
@@ -286,21 +292,25 @@ namespace TestMultiTouch
             distance1 = distance;
 
             //マーカ判定
-            if (Range_in(distance1, 140, 120) && Range_in(distance2, 100, 80))
+            if (Range_in(distance1, 35, 25) && Range_in(distance2, 25, 15))
             {
                 Console.WriteLine("Mark1");
+                Canvas.SetTop(canvas3,p.X);
+                Canvas.SetLeft(canvas3, p.Y);
             }
-            else if (Range_in(distance1, 100, 80) && Range_in(distance2, 100, 80))
+            else if (Range_in(distance1, 25, 15) && Range_in(distance2, 35, 25))
             {
                 Console.WriteLine("Mark2");
+                Canvas.SetTop(canvas3, p.X);
+                Canvas.SetLeft(canvas3, p.Y);
             }
 
             Console.WriteLine("distance1:" + distance1);
             Console.WriteLine("distance2:" + distance2);
 
             //ファイル書き込み
-            record_distance.WriteLine(distance1 + "," + distance2);
-            record_point.WriteLine(p.X + "," + p.Y);
+            //record_distance.WriteLine(distance1 + "," + distance2);
+            //record_point.WriteLine(p.X + "," + p.Y);
         }
 
         /// <summary>
@@ -335,8 +345,8 @@ namespace TestMultiTouch
             // 図形を削除
             if(mousePoint != null)
             {
-                canvas.Children.Remove(mousePoint.label);
-                canvas.Children.Remove(mousePoint.ellipse);
+                //canvas.Children.Remove(mousePoint.label);
+                //canvas.Children.Remove(mousePoint.ellipse);
             }
             mousePoint = null;
 
@@ -347,7 +357,7 @@ namespace TestMultiTouch
             x = e.GetPosition(canvas).X;
             y = e.GetPosition(canvas).Y;
 
-            Touch_marker(@"Record_Distance.csv");
+            //Touch_marker(@"Record_Distance.csv");
 
             var win = new Window2();
             win.Width = Width / 3;
