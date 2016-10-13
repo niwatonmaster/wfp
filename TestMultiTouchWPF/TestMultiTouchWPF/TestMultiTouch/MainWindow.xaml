@@ -1,15 +1,18 @@
 ﻿<Window x:Class="TestMultiTouch.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+        Title="MainWindow" Height="600" Width="1100" Loaded="Window_Loaded">
     <Grid>
         <Canvas x:Name="canvas" TouchDown="canvas_TouchDown" TouchMove="canvas_TouchMove" TouchUp="canvas_TouchUp" Background="White" MouseDown="canvas_MouseDown" MouseMove="canvas_MouseMove" MouseUp="canvas_MouseUp" StylusDown="canvas_StylusDown" StylusMove="canvas_StylusMove" StylusUp="canvas_StylusUp" 
                 
                 >
-                    <Canvas Name ="canvas3" Height="100" Width="100" Top ="0" Left ="20" Background="Red"/>
-                    <Canvas x:Name="canvas2" TouchDown="canvas_TouchDown" TouchMove="canvas_TouchMove" TouchUp="canvas_TouchUp" Background="White" MouseDown="canvas_MouseDown" MouseMove="canvas_MouseMove" MouseUp="canvas_MouseUp" StylusDown="canvas_StylusDown" StylusMove="canvas_StylusMove" StylusUp="canvas_StylusUp" 
-                    />
-            </Canvas>
+            <Canvas Name ="subcanvas1" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas2" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas3" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas4" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas5" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas6" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
+        </Canvas>
     </Grid>
     
     
