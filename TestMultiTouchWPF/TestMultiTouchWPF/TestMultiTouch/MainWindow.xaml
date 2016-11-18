@@ -7,11 +7,17 @@
                 
                 >
             <Canvas Name ="subcanvas1" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
-            <Canvas Name ="subcanvas2" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
-            <Canvas Name ="subcanvas3" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
-            <Canvas Name ="subcanvas4" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
-            <Canvas Name ="subcanvas5" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
-            <Canvas Name ="subcanvas6" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas2" Height="100" Width="100" Top ="0" Left ="0" Background="Blue" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas3" Height="100" Width="100" Top ="0" Left ="0" Background="Green" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas4" Height="100" Width="100" Top ="0" Left ="0" Background="Black" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas5" Height="100" Width="100" Top ="0" Left ="0" Background="Pink" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas6" Height="100" Width="100" Top ="0" Left ="0" Background="Yellow" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas7" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas8" Height="100" Width="100" Top ="0" Left ="0" Background="Blue" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas9" Height="100" Width="100" Top ="0" Left ="0" Background="Green" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas10" Height="100" Width="100" Top ="0" Left ="0" Background="Black" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas11" Height="100" Width="100" Top ="0" Left ="0" Background="Pink" TouchDown="canvas3_view"/>
+            <Canvas Name ="subcanvas12" Height="100" Width="100" Top ="0" Left ="0" Background="Yellow" TouchDown="canvas3_view"/>
         </Canvas>
     </Grid>
     

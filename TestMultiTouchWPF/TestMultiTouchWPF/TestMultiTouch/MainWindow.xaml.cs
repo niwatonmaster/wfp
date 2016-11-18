@@ -39,12 +39,19 @@ namespace TestMultiTouch
         private double distance = 0;
         private double distance1 = 0;
         private double distance2 = 0;
+        private double distance3 = 0;
+        private double distance4 = 0;
+        private double distance5 = 0;
+        private double distance6 = 0;
         private double x = 0;
         private double y = 0;
         private StreamWriter record_distance, record_point;
 
         private Boolean mouse_key_enable = false;
         private Boolean touch_key_enable = true;
+
+        private TextBox tb1 = new TextBox();
+        private TextBox tb2 = new TextBox();
 
 
         /// <summary>
@@ -163,22 +170,56 @@ namespace TestMultiTouch
             record_distance.WriteLine("testdata");
             record_distance.WriteLine("koke,koke");
 
+
+            //ビューの準備
             subcanvas1.Visibility = Visibility.Hidden;
             subcanvas2.Visibility = Visibility.Hidden;
             subcanvas3.Visibility = Visibility.Hidden;
             subcanvas4.Visibility = Visibility.Hidden;
             subcanvas5.Visibility = Visibility.Hidden;
             subcanvas6.Visibility = Visibility.Hidden;
+            subcanvas7.Visibility = Visibility.Hidden;
+            subcanvas8.Visibility = Visibility.Hidden;
+            subcanvas9.Visibility = Visibility.Hidden;
+            subcanvas10.Visibility = Visibility.Hidden;
+            subcanvas11.Visibility = Visibility.Hidden;
+            subcanvas12.Visibility = Visibility.Hidden;
 
-            subcanvas1.Width = Width / 3; subcanvas1.Height = Height / 3;
-            subcanvas2.Width = Width / 3; subcanvas2.Height = Height / 3;
-            subcanvas3.Width = Width / 3; subcanvas3.Height = Height / 3;
-            subcanvas4.Width = Width / 3; subcanvas4.Height = Height / 3;
-            subcanvas5.Width = Width / 3; subcanvas5.Height = Height / 3;
-            subcanvas6.Width = Width / 3; subcanvas6.Height = Height / 3;
+            subcanvas1.Width = Width / 4; subcanvas1.Height = Height / 3;
+            subcanvas2.Width = Width / 4; subcanvas2.Height = Height / 3;
+            subcanvas3.Width = Width / 4; subcanvas3.Height = Height / 3;
+            subcanvas4.Width = Width / 4; subcanvas4.Height = Height / 3;
+            subcanvas5.Width = Width / 4; subcanvas5.Height = Height / 3;
+            subcanvas6.Width = Width / 4; subcanvas6.Height = Height / 3;
+            subcanvas7.Width = Width / 4; subcanvas7.Height = Height / 3;
+            subcanvas8.Width = Width / 4; subcanvas8.Height = Height / 3;
+            subcanvas9.Width = Width / 4; subcanvas9.Height = Height / 3;
+            subcanvas10.Width = Width / 4; subcanvas10.Height = Height / 3;
+            subcanvas11.Width = Width / 4; subcanvas11.Height = Height / 3;
+            subcanvas12.Width = Width / 4; subcanvas12.Height = Height / 3;
+
+            Canvas.SetTop(subcanvas1, 0); Canvas.SetLeft(subcanvas1, 0);
+            Canvas.SetTop(subcanvas2, 0); Canvas.SetLeft(subcanvas2, Width / 4 );
+            Canvas.SetTop(subcanvas3, 0); Canvas.SetLeft(subcanvas3, Width * 2 / 4);
+            Canvas.SetTop(subcanvas4, 0); Canvas.SetLeft(subcanvas4, Width * 3 / 4);
+            Canvas.SetTop(subcanvas5, Height / 3); Canvas.SetLeft(subcanvas5, 0);
+            Canvas.SetTop(subcanvas6, Height / 3); Canvas.SetLeft(subcanvas6, Width / 4);
+            Canvas.SetTop(subcanvas7, Height / 3); Canvas.SetLeft(subcanvas7, Width  * 2 / 4);
+            Canvas.SetTop(subcanvas8, Height / 3); Canvas.SetLeft(subcanvas8, Width * 3 / 4);
+            Canvas.SetTop(subcanvas9, Height * 2 / 3); Canvas.SetLeft(subcanvas9, 0);
+            Canvas.SetTop(subcanvas10, Height * 2 / 3); Canvas.SetLeft(subcanvas10, Width / 4);
+            Canvas.SetTop(subcanvas11, Height * 2 / 3); Canvas.SetLeft(subcanvas11, Width * 2 / 4);
+            Canvas.SetTop(subcanvas12, Height * 2 / 3); Canvas.SetLeft(subcanvas12, Width * 3 / 4);
 
 
 
+            tb1.Width = 100;tb1.Height = 50;
+            tb1.Text = "none";
+            canvas.Children.Add(tb1);
+            tb2.Width = 100; tb1.Height = 50;
+            tb2.Text = "none";
+            canvas.Children.Add(tb2);
+            Canvas.SetTop(tb2, 50);
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -198,6 +239,10 @@ namespace TestMultiTouch
 
             if (touch_key_enable)
             {
+
+                //Pucs検出
+                pucs_recog(e);
+
                 // 座標取得
                 TouchPoint p = e.GetTouchPoint(canvas);
                 // 図形生成
@@ -222,22 +267,76 @@ namespace TestMultiTouch
                 //前のタッチ終了点との距離を算出
                 distance = Math.Sqrt((x - p.Position.X) * (x - p.Position.X) + (y - p.Position.Y) * (y - p.Position.Y));
 
+                distance6 = distance5;
+                distance5 = distance4;
+                distance4 = distance3;
+                distance3 = distance2;
                 distance2 = distance1;
                 distance1 = distance;
 
+                tb1.Text = "" + distance1;
+                tb2.Text = "" + distance2;
+
+                tb1.Text = "" + e.TouchDevice.Id　;
+
                 //マーカ判定
-                if (Range_in(distance1, 35, 25) && Range_in(distance2, 25, 15))
+                if (p.Position.X < Width / 4)
                 {
-                    Console.WriteLine("Mark1");
-                    Canvas.SetTop(subcanvas1, p.Position.X);
-                    Canvas.SetLeft(subcanvas1, p.Position.Y);
-                    subcanvas1.Visibility = Visibility.Visible;
+                    if (p.Position.Y < Height / 3)
+                    {
+                        recog_marker(subcanvas1);
+                    }
+                    else if (p.Position.Y < Height * 2 / 3)
+                    {
+                        recog_marker(subcanvas5);
+                    }
+                    else
+                    {
+                        recog_marker(subcanvas9);
+                    }
                 }
-                else if (Range_in(distance1, 25, 15) && Range_in(distance2, 35, 25))
+                else if (p.Position.X < Width * 2 / 4)
                 {
-                    Console.WriteLine("Mark2");
-                    Canvas.SetTop(subcanvas2, p.Position.X);
-                    Canvas.SetLeft(subcanvas2, p.Position.Y);
+                    if (p.Position.Y < Height / 3)
+                    {
+                        recog_marker(subcanvas2);
+                    }
+                    else if (p.Position.Y < Height * 2 / 3)
+                    {
+                        recog_marker(subcanvas6);
+                    }
+                    else
+                    {
+                        recog_marker(subcanvas10);
+                    }
+                }
+                else if (p.Position.X < Width * 3 / 4)
+                {
+                    if (p.Position.Y < Height / 3)
+                    {
+                        recog_marker(subcanvas3);
+                    }
+                    else if (p.Position.Y < Height * 2 / 3)
+                    {
+                        recog_marker(subcanvas7);
+                    }
+                    else
+                    {
+                        recog_marker(subcanvas11);
+                    }
+                }else {
+                    if (p.Position.Y < Height / 3)
+                    {
+                        recog_marker(subcanvas4);
+                    }
+                    else if (p.Position.Y < Height * 2 / 3)
+                    {
+                        recog_marker(subcanvas8);
+                    }
+                    else
+                    {
+                        recog_marker(subcanvas12);
+                    }
                 }
 
                 Line line = new Line();
@@ -253,6 +352,79 @@ namespace TestMultiTouch
 
                 //ファイル書き込み
                 //record_distance.WriteLine(distance1 + "," + distance2);
+            }
+        }
+
+        private void subcanvas_select(Canvas subcanvas, Color color)
+        {
+            SolidColorBrush colorbrush = new SolidColorBrush(color);
+            /*if (subcanvas.Background == colorbrush)
+            {
+                if (subcanvas.IsVisible)
+                {
+                    subcanvas.Visibility = Visibility.Hidden;
+                }
+                else
+                {
+                    subcanvas.Visibility = Visibility.Visible;
+                }
+                subcanvas.Background = new SolidColorBrush(Colors.Gray);
+            }
+            else
+            {
+                subcanvas.Background = colorbrush;*/
+            subcanvas.Background = colorbrush;
+            if (subcanvas.IsVisible)
+            {
+                subcanvas.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+                subcanvas.Visibility = Visibility.Visible;
+            }
+        }
+
+        private void recog_marker(Canvas subcanvas){
+            if (Range_in(distance1, 35, 25) && Range_in(distance2, 45, 35))
+            {
+                subcanvas_select(subcanvas, Colors.Red);
+            }
+            else if (Range_in(distance1, 45, 35) && Range_in(distance2, 35, 25))
+            {
+                subcanvas_select(subcanvas, Colors.Blue);
+            }
+            else if (Range_in(distance1, 35, 25) && Range_in(distance2, 35, 25))
+            {
+                subcanvas_select(subcanvas, Colors.Cyan);
+            }
+
+            if (Range_in(distance1, 35, 25) && Range_in(distance2, 25, 15)
+                && Range_in(distance3, 25, 15) && Range_in(distance4, 35, 25)
+                && Range_in(distance5, 25, 15)
+                )
+            {
+                subcanvas_select(subcanvas, Colors.Yellow);
+            }
+            else if (Range_in(distance1, 25, 15) && Range_in(distance2, 35, 25)
+              && Range_in(distance3, 25, 15) && Range_in(distance4, 25, 15)
+              && Range_in(distance5, 35, 25)
+              )
+            {
+                subcanvas_select(subcanvas, Colors.Green);
+            }
+
+        }
+
+        private void pucs_recog(TouchEventArgs e){
+            int touchcount = e.TouchDevice.Id - 99;
+
+            if (touchcount > 2)
+            {
+                for (int i = 0; i < touchcount; i++)
+                {
+                    double j =  e.GetTouchPoint(canvas).Position.X;
+                    
+                }
             }
         }
 
@@ -292,8 +464,8 @@ namespace TestMultiTouch
                 // タッチキャプチャをリリース
                 canvas.ReleaseTouchCapture(e.TouchDevice);
                 // 図形を削除
-                //canvas.Children.Remove(touchPoints[e.TouchDevice.Id].label);
-                //canvas.Children.Remove(touchPoints[e.TouchDevice.Id].ellipse);
+                canvas.Children.Remove(touchPoints[e.TouchDevice.Id].label);
+                canvas.Children.Remove(touchPoints[e.TouchDevice.Id].ellipse);
                 touchPoints.Remove(e.TouchDevice.Id);
 
                 End = DateTime.UtcNow;
@@ -618,3 +790,4 @@ namespace TestMultiTouch
         }
     }
 }
+

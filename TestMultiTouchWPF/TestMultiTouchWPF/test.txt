@@ -1,0 +1,15 @@
+state:touchdown x:745.6 y:311.2
+distance1:248.722817610287
+distance2:7.20000000000005
+state:touchmove x:746.4 y:312
+state:touchup x:746.4 y:312
+state:touchdown x:857.6 y:263.2
+distance1:121.436732498861
+distance2:248.722817610287
+state:touchmove x:861.6 y:264.8
+state:touchup x:861.6 y:264.8
+state:touchdown x:957.6 y:202.4
+distance1:114.497860242015
+distance2:121.436732498861
+state:touchmove x:956.8 y:200
+state:touchup x:956.8 y:200
