@@ -1,0 +1,140 @@
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework-SystemXmlLinq\v4.0_4.0.0.0__b77a5c561934e089\PresentationFramework-SystemXmlLinq.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework-SystemXml\v4.0_4.0.0.0__b77a5c561934e089\PresentationFramework-SystemXml.dll' が読み込まれました。シンボルが読み込まれました。
+state:touchdown x:138.4 y:93.6
+distance1:167.079382330675
+distance2:0
+state:touchmove x:150.4 y:89.6
+state:touchmove x:150.4 y:89.6
+state:touchmove x:151.2 y:89.6
+state:touchup x:151.2 y:89.6
+state:touchdown x:166.4 y:88.8
+distance1:15.2210380723523
+distance2:167.079382330675
+state:touchmove x:167.2 y:88
+state:touchup x:167.2 y:88
+state:touchdown x:133.6 y:158.4
+distance1:78.007179156793
+distance2:15.2210380723523
+state:touchmove x:133.6 y:158.4
+state:touchup x:133.6 y:158.4
+state:touchdown x:150.4 y:157.6
+distance1:16.8190368333029
+distance2:78.007179156793
+state:touchmove x:150.4 y:157.6
+state:touchup x:150.4 y:157.6
+state:touchdown x:160.8 y:155.2
+distance1:10.6733312513011
+distance2:16.8190368333029
+state:touchmove x:162.4 y:155.2
+state:touchup x:162.4 y:155.2
+state:touchdown x:152 y:231.2
+distance1:76.708278562356
+distance2:10.6733312513011
+state:touchmove x:152.8 y:231.2
+state:touchup x:152.8 y:231.2
+state:touchdown x:167.2 y:230.4
+distance1:14.422205101856
+distance2:76.708278562356
+state:touchmove x:168 y:230.4
+state:touchup x:168 y:230.4
+state:touchdown x:177.6 y:228
+distance1:9.89545350148241
+distance2:14.422205101856
+state:touchmove x:180 y:228
+state:touchup x:180 y:228
+state:touchdown x:162.4 y:319.2
+distance1:92.88272175168
+distance2:9.89545350148241
+state:touchmove x:163.2 y:320
+state:touchup x:163.2 y:320
+state:touchdown x:175.2 y:319.2
+distance1:12.0266371026983
+distance2:92.88272175168
+state:touchmove x:176.8 y:319.2
+state:touchup x:176.8 y:319.2
+state:touchdown x:188 y:317.6
+distance1:11.3137084989848
+distance2:12.0266371026983
+state:touchmove x:189.6 y:317.6
+state:touchup x:189.6 y:317.6
+state:touchdown x:172 y:420
+distance1:103.901491808347
+distance2:11.3137084989848
+state:touchmove x:172.8 y:420
+state:touchup x:172.8 y:420
+state:touchdown x:187.2 y:419.2
+distance1:14.422205101856
+distance2:103.901491808347
+state:touchmove x:187.2 y:419.2
+state:touchup x:187.2 y:419.2
+state:touchdown x:199.2 y:417.6
+distance1:12.1061967603372
+distance2:14.422205101856
+state:touchmove x:200 y:416.8
+state:touchup x:200 y:416.8
+state:touchdown x:333.6 y:76
+distance1:366.051362516246
+distance2:12.1061967603372
+state:touchmove x:334.4 y:76
+state:touchup x:334.4 y:76
+state:touchdown x:347.2 y:74.4
+distance1:12.8996123972777
+distance2:366.051362516246
+state:touchmove x:360 y:72.8
+state:touchup x:360 y:72.8
+state:touchdown x:332.8 y:148
+distance1:79.9679935974387
+distance2:12.8996123972777
+state:touchmove x:334.4 y:148.8
+state:touchup x:334.4 y:148.8
+state:touchdown x:344.8 y:147.2
+distance1:10.5223571503727
+distance2:79.9679935974387
+state:touchmove x:346.4 y:147.2
+state:touchup x:346.4 y:147.2
+state:touchdown x:360.8 y:146.4
+distance1:14.4222051018559
+distance2:10.5223571503727
+state:touchmove x:361.6 y:146.4
+state:touchup x:361.6 y:146.4
+state:touchdown x:332.8 y:243.2
+distance1:100.993465135126
+distance2:14.4222051018559
+state:touchmove x:333.6 y:243.2
+state:touchup x:333.6 y:243.2
+state:touchdown x:346.4 y:240.8
+distance1:13.0230564768798
+distance2:100.993465135126
+state:touchmove x:348.8 y:240.8
+state:touchup x:348.8 y:240.8
+state:touchdown x:360.8 y:240.8
+distance1:12
+distance2:13.0230564768798
+state:touchmove x:361.6 y:240.8
+state:touchup x:361.6 y:240.8
+state:touchdown x:332 y:325.6
+distance1:89.8175929314519
+distance2:12
+state:touchmove x:333.6 y:324.8
+state:touchup x:333.6 y:324.8
+state:touchdown x:344.8 y:324.8
+distance1:11.2
+distance2:89.8175929314519
+state:touchmove x:344.8 y:324
+state:touchup x:344.8 y:324
+state:touchdown x:360 y:323.2
+distance1:15.2210380723523
+distance2:11.2
+state:touchmove x:360.8 y:323.2
+state:touchup x:360.8 y:323.2
+state:touchdown x:331.2 y:408.8
+distance1:90.5732852446017
+distance2:15.2210380723523
+state:touchmove x:332.8 y:408.8
+state:touchup x:332.8 y:408.8
+state:touchdown x:344.8 y:407.2
+distance1:12.1061967603372
+distance2:90.5732852446017
+state:touchmove x:358.4 y:406.4
+state:touchup x:358.4 y:406.4
+1,6,10失敗

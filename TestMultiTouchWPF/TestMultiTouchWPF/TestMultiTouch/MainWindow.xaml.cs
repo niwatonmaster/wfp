@@ -449,6 +449,7 @@ namespace TestMultiTouch
 
 
                 Console.WriteLine("state:" + "touchmove" + " x:" + p.Position.X + " y:" + p.Position.Y);
+               
             }
         }
 
@@ -479,6 +480,45 @@ namespace TestMultiTouch
                 Console.WriteLine("state:" + "touchup" + " x:" + p.Position.X + " y:" + p.Position.Y);
             }
             subcanvas1.InvalidateVisual();
+        }
+
+        private void canvas_TouchEnter(object sender, TouchEventArgs e)
+        {
+            if (touch_key_enable)
+            {
+                TouchPoint p = e.GetTouchPoint(canvas);
+                if (e.TouchDevice.Captured == canvas)
+                {
+                    // IDごとの図形を取得
+                    Mark mark = touchPoints[e.TouchDevice.Id];
+                    // 座標を指定
+                    //TouchPoint p = e.GetTouchPoint(canvas);
+                    mark.SetPos(p.Position);
+                }
+
+
+                //Console.WriteLine("state:" + "touchenter" + " x:" + p.Position.X + " y:" + p.Position.Y);
+            }
+        }
+
+
+        private void canvas_TouchLeave(object sender, TouchEventArgs e)
+        {
+            if (touch_key_enable)
+            {
+                TouchPoint p = e.GetTouchPoint(canvas);
+                if (e.TouchDevice.Captured == canvas)
+                {
+                    // IDごとの図形を取得
+                    Mark mark = touchPoints[e.TouchDevice.Id];
+                    // 座標を指定
+                    //TouchPoint p = e.GetTouchPoint(canvas);
+                    mark.SetPos(p.Position);
+                }
+
+
+               // Console.WriteLine("state:" + "touchmove" + " x:" + p.Position.X + " y:" + p.Position.Y);
+            }
         }
 
         /// <summary>
@@ -782,7 +822,6 @@ namespace TestMultiTouch
             canvas.Children.Remove(stylusPoints[e.StylusDevice.Id].ellipse);
             stylusPoints.Remove(e.StylusDevice.Id);
         }
-
 
         private void canvas3_view(object sender, TouchEventArgs e)
         {

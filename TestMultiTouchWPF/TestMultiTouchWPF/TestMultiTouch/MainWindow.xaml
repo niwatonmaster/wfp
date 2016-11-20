@@ -4,7 +4,7 @@
         Title="MainWindow" Height="600" Width="1100" Loaded="Window_Loaded">
     <Grid>
         <Canvas x:Name="canvas" TouchDown="canvas_TouchDown" TouchMove="canvas_TouchMove" TouchUp="canvas_TouchUp" Background="White" MouseDown="canvas_MouseDown" MouseMove="canvas_MouseMove" MouseUp="canvas_MouseUp" StylusDown="canvas_StylusDown" StylusMove="canvas_StylusMove" StylusUp="canvas_StylusUp" 
-                
+                TouchEnter="canvas_TouchEnter" TouchLeave="canvas_TouchLeave"
                 >
             <Canvas Name ="subcanvas1" Height="100" Width="100" Top ="0" Left ="0" Background="Red" TouchDown="canvas3_view"/>
             <Canvas Name ="subcanvas2" Height="100" Width="100" Top ="0" Left ="0" Background="Blue" TouchDown="canvas3_view"/>
