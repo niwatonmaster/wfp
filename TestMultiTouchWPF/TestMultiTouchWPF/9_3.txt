@@ -1,0 +1,150 @@
+state:touchdown x:708 y:78.4
+distance1:157.926565213076
+distance2:527.249163109815
+state:touchmove x:708.8 y:79.2
+state:touchup x:708.8 y:79.2
+state:touchdown x:728 y:78.4
+distance1:19.2166594391428
+distance2:157.926565213076
+state:touchmove x:728.8 y:77.6
+state:touchup x:728.8 y:77.6
+state:touchdown x:744 y:76
+distance1:15.2839785396342
+distance2:19.2166594391428
+state:touchmove x:744.8 y:76
+state:touchup x:744.8 y:76
+state:touchdown x:710.4 y:162.4
+distance1:92.99634401416
+distance2:15.2839785396342
+state:touchmove x:711.2 y:161.6
+state:touchup x:711.2 y:161.6
+state:touchdown x:728 y:162.4
+distance1:16.8190368333029
+distance2:92.99634401416
+state:touchmove x:730.4 y:161.6
+state:touchup x:730.4 y:161.6
+state:touchdown x:747.2 y:161.6
+distance1:16.8
+distance2:16.8190368333029
+state:touchmove x:748.8 y:160.8
+state:touchup x:748.8 y:160.8
+state:touchdown x:700.8 y:253.6
+distance1:104.478897390813
+distance2:16.8
+state:touchmove x:700.8 y:253.6
+state:touchup x:700.8 y:253.6
+state:touchdown x:721.6 y:252.8
+distance1:20.8153789300123
+distance2:104.478897390813
+state:touchmove x:722.4 y:252.8
+state:touchup x:722.4 y:252.8
+state:touchdown x:739.2 y:252.8
+distance1:16.8
+distance2:20.8153789300123
+state:touchmove x:738.4 y:252.8
+state:touchup x:738.4 y:252.8
+state:touchdown x:701.6 y:352.8
+distance1:106.556276211212
+distance2:16.8
+state:touchmove x:702.4 y:352.8
+state:touchup x:702.4 y:352.8
+state:touchdown x:720.8 y:352.8
+distance1:18.4
+distance2:106.556276211212
+state:touchmove x:721.6 y:352
+state:touchup x:721.6 y:352
+state:touchdown x:740 y:353.6
+distance1:18.4694342089843
+distance2:18.4
+state:touchmove x:740.8 y:352.8
+state:touchup x:740.8 y:352.8
+state:touchdown x:708.8 y:424.8
+distance1:78.7908624143688
+distance2:18.4694342089843
+state:touchmove x:710.4 y:424
+state:touchup x:710.4 y:424
+state:touchdown x:721.6 y:424.8
+distance1:11.2285350780945
+distance2:78.7908624143688
+state:touchmove x:725.6 y:424.8
+state:touchup x:725.6 y:424.8
+state:touchdown x:740.8 y:424.8
+distance1:15.2
+distance2:11.2285350780945
+state:touchmove x:742.4 y:424.8
+state:touchup x:742.4 y:424.8
+state:touchdown x:936.8 y:64.8
+distance1:409.134892181051
+distance2:15.2
+state:touchmove x:937.6 y:65.6
+state:touchup x:937.6 y:65.6
+state:touchdown x:951.2 y:68
+distance1:13.8101412013057
+distance2:409.134892181051
+state:touchmove x:952 y:68
+state:touchup x:952 y:68
+state:touchdown x:973.6 y:68.8
+distance1:21.6148097377701
+distance2:13.8101412013057
+state:touchmove x:973.6 y:68
+state:touchup x:973.6 y:68
+state:touchdown x:940 y:163.2
+distance1:100.955435712992
+distance2:21.6148097377701
+state:touchmove x:955.2 y:163.2
+state:touchmove x:956.8 y:164
+state:touchmove x:957.6 y:164
+state:touchmove x:957.6 y:164
+state:touchmove x:958.4 y:164
+state:touchmove x:959.2 y:164
+state:touchup x:959.2 y:164
+state:touchdown x:977.6 y:164.8
+distance1:18.4173830931541
+distance2:100.955435712992
+state:touchmove x:978.4 y:165.6
+state:touchup x:978.4 y:165.6
+state:touchdown x:944 y:250.4
+distance1:91.5117478797122
+distance2:18.4173830931541
+state:touchmove x:944.8 y:250.4
+state:touchup x:944.8 y:250.4
+state:touchdown x:961.6 y:251.2
+distance1:16.8190368333029
+distance2:91.5117478797122
+state:touchmove x:963.2 y:251.2
+state:touchup x:963.2 y:251.2
+state:touchdown x:982.4 y:252
+distance1:19.2166594391429
+distance2:16.8190368333029
+state:touchmove x:983.2 y:252
+state:touchup x:983.2 y:252
+state:touchdown x:930.4 y:343.2
+distance1:105.381592320481
+distance2:19.2166594391429
+state:touchmove x:932 y:342.4
+state:touchup x:932 y:342.4
+state:touchdown x:951.2 y:344
+distance1:19.2665513260677
+distance2:105.381592320481
+state:touchmove x:955.2 y:344
+state:touchup x:955.2 y:344
+state:touchdown x:966.4 y:342.4
+distance1:11.3137084989848
+distance2:19.2665513260677
+state:touchmove x:969.6 y:344
+state:touchup x:969.6 y:344
+state:touchdown x:926.4 y:436.8
+distance1:102.362493131029
+distance2:11.3137084989848
+state:touchmove x:927.2 y:436.8
+state:touchup x:927.2 y:436.8
+state:touchdown x:944 y:436
+distance1:16.8190368333029
+distance2:102.362493131029
+state:touchmove x:945.6 y:436.8
+state:touchup x:945.6 y:436.8
+state:touchdown x:963.2 y:436.8
+distance1:17.6
+distance2:16.8190368333029
+state:touchmove x:964.8 y:436.8
+state:touchup x:964.8 y:436.8
