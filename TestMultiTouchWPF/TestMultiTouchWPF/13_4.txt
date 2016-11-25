@@ -1,0 +1,187 @@
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll' が読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\bin\Release\TestMultiTouch.vshost.exe' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualBasic\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ja_b77a5c561934e089\mscorlib.resources.dll' が読み込まれました。モジュールがシンボルなしでビルドされました。
+スレッド 0x24e0 はコード 0 (0x0) で終了しました。
+スレッド 0x16a0 はコード 0 (0x0) で終了しました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Users\IPLAB\wfp\TestMultiTouchWPF\TestMultiTouchWPF\TestMultiTouch\bin\Release\TestMultiTouch.exe' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Accessibility\v4.0_4.0.0.0__b03f5f7f11d50a3a\Accessibility.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework.resources\v4.0_4.0.0.0_ja_31bf3856ad364e35\PresentationFramework.resources.dll' が読み込まれました。モジュールがシンボルなしでビルドされました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework.Aero\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.Aero.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationCore.resources\v4.0_4.0.0.0_ja_31bf3856ad364e35\PresentationCore.resources.dll' が読み込まれました。モジュールがシンボルなしでビルドされました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Users\IPLAB\AppData\Local\Temp\VisualStudio.XamlDiagnostics.11128\WpfXamlDiagnosticsTap.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\assembly\GAC\Microsoft.VisualStudio.OLE.Interop\7.1.40304.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.OLE.Interop.dll' が読み込まれました。モジュールがシンボルなしでビルドされました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationProvider\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationProvider.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework-SystemXmlLinq\v4.0_4.0.0.0__b77a5c561934e089\PresentationFramework-SystemXmlLinq.dll' が読み込まれました。シンボルが読み込まれました。
+'TestMultiTouch.vshost.exe' (CLR v4.0.30319: TestMultiTouch.vshost.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework-SystemXml\v4.0_4.0.0.0__b77a5c561934e089\PresentationFramework-SystemXml.dll' が読み込まれました。シンボルが読み込まれました。
+state:touchdown x:200 y:133.6
+distance1:240.518107426447
+distance2:0
+state:touchmove x:200 y:132.8
+state:touchup x:200 y:132.8
+state:touchdown x:222.4 y:132
+distance1:22.414281161795
+distance2:240.518107426447
+state:touchmove x:224 y:132.8
+state:touchup x:224 y:132.8
+state:touchdown x:244.8 y:131.2
+distance1:20.8614476966485
+distance2:22.414281161795
+state:touchmove x:244.8 y:131.2
+state:touchup x:244.8 y:131.2
+state:touchdown x:199.2 y:217.6
+distance1:97.6950356978286
+distance2:20.8614476966485
+state:touchmove x:199.2 y:217.6
+state:touchup x:199.2 y:217.6
+state:touchdown x:221.6 y:217.6
+distance1:22.4
+distance2:97.6950356978286
+state:touchmove x:222.4 y:218.4
+state:touchup x:222.4 y:218.4
+state:touchdown x:243.2 y:216.8
+distance1:20.8614476966485
+distance2:22.4
+state:touchmove x:244 y:216.8
+state:touchup x:244 y:216.8
+state:touchdown x:194.4 y:320
+distance1:114.50065501996
+distance2:20.8614476966485
+state:touchmove x:194.4 y:319.2
+state:touchup x:194.4 y:319.2
+state:touchdown x:216 y:319.2
+distance1:21.6
+distance2:114.50065501996
+state:touchmove x:216.8 y:319.2
+state:touchup x:216.8 y:319.2
+state:touchdown x:236.8 y:318.4
+distance1:20.0159936051149
+distance2:21.6
+state:touchmove x:237.6 y:318.4
+state:touchup x:237.6 y:318.4
+state:touchdown x:205.6 y:419.2
+distance1:105.757458365829
+distance2:20.0159936051149
+state:touchmove x:205.6 y:418.4
+state:touchup x:205.6 y:418.4
+state:touchdown x:226.4 y:418.4
+distance1:20.8
+distance2:105.757458365829
+state:touchmove x:226.4 y:417.6
+state:touchup x:226.4 y:417.6
+state:touchdown x:246.4 y:418.4
+distance1:20.0159936051149
+distance2:20.8
+state:touchmove x:247.2 y:417.6
+state:touchup x:247.2 y:417.6
+state:touchdown x:213.6 y:489.6
+distance1:79.4541377147849
+distance2:20.0159936051149
+state:touchmove x:213.6 y:490.4
+state:touchup x:213.6 y:490.4
+state:touchdown x:233.6 y:491.2
+distance1:20.0159936051149
+distance2:79.4541377147849
+state:touchmove x:233.6 y:489.6
+state:touchup x:233.6 y:489.6
+state:touchdown x:254.4 y:489.6
+distance1:20.8
+distance2:20.0159936051149
+state:touchmove x:255.2 y:488.8
+state:touchup x:255.2 y:488.8
+state:touchdown x:392 y:119.2
+distance1:394.104554655234
+distance2:20.8
+state:touchmove x:392 y:119.2
+state:touchup x:392 y:119.2
+state:touchdown x:416.8 y:122.4
+distance1:25.0055993729405
+distance2:394.104554655234
+state:touchmove x:417.6 y:120.8
+state:touchup x:417.6 y:120.8
+state:touchdown x:436.8 y:121.6
+distance1:19.2166594391429
+distance2:25.0055993729405
+state:touchmove x:436.8 y:121.6
+state:touchup x:436.8 y:121.6
+state:touchdown x:404 y:219.2
+distance1:102.964071403573
+distance2:19.2166594391429
+state:touchmove x:404 y:219.2
+state:touchup x:404 y:219.2
+state:touchdown x:420 y:221.6
+distance1:16.1789987329254
+distance2:102.964071403573
+state:touchmove x:420.8 y:221.6
+state:touchup x:420.8 y:221.6
+state:touchdown x:440.8 y:223.2
+distance1:20.0638979263751
+distance2:16.1789987329254
+state:touchmove x:441.6 y:222.4
+state:touchup x:441.6 y:222.4
+state:touchdown x:402.4 y:334.4
+distance1:118.661872562336
+distance2:20.0638979263751
+state:touchmove x:404 y:334.4
+state:touchup x:404 y:334.4
+state:touchdown x:423.2 y:334.4
+distance1:19.2
+distance2:118.661872562336
+state:touchmove x:425.6 y:335.2
+state:touchup x:425.6 y:335.2
+state:touchdown x:442.4 y:335.2
+distance1:16.8
+distance2:19.2
+state:touchmove x:443.2 y:335.2
+state:touchup x:443.2 y:335.2
+state:touchdown x:402.4 y:411.2
+distance1:86.2591444427778
+distance2:16.8
+state:touchmove x:399.2 y:411.2
+state:touchup x:399.2 y:411.2
+state:touchdown x:423.2 y:412
+distance1:24.0133296316858
+distance2:86.2591444427778
+state:touchmove x:424 y:412.8
+state:touchup x:424 y:412.8
+state:touchdown x:441.6 y:412.8
+distance1:17.6
+distance2:24.0133296316858
+state:touchmove x:442.4 y:412.8
+state:touchup x:442.4 y:412.8
+state:touchdown x:390.4 y:498.4
+distance1:100.156677261179
+distance2:17.6
+state:touchmove x:394.4 y:498.4
+state:touchmove x:393.6 y:498.4
+state:touchmove x:397.6 y:497.6
+state:touchmove x:395.2 y:497.6
+state:touchup x:395.2 y:497.6
+state:touchdown x:418.4 y:499.2
+distance1:23.2551069659978
+distance2:100.156677261179
+state:touchmove x:419.2 y:499.2
+state:touchup x:419.2 y:499.2
+state:touchdown x:436.8 y:499.2
+distance1:17.6
+distance2:23.2551069659978
+state:touchmove x:436.8 y:498.4
+state:touchup x:436.8 y:498.4
